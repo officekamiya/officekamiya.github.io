@@ -1,5 +1,15 @@
-h1 {
+.ok-logo {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.ok-header {
+  background-color: rgba(13, 0, 0, 0.9);
+}
+.ok-header .ok-header__title {
+  color: #fff;
+}
+.ok-header .ok-header__description {
+  color: #fff;
 }
