@@ -2,14 +2,13 @@ body {
   background-color: rgba(13, 0, 0, 0.9);
 }
 
-.ok-logotype {
-  font-family: myriad-pro, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-}
-
 .ok-header {
   margin-top: 12px;
+}
+.ok-header .ok-logotype {
+  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 .ok-header .ok-logomark__block {
   display: block;
@@ -30,7 +29,7 @@ body {
 .ok-header .ok-header__description {
   font-size: 12px;
   font-size: 0.75rem;
-  font-family: source-han-sans-japanese, sans-serif;
+  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
   font-weight: 700;
   color: white;
   text-align: center;
@@ -38,4 +37,13 @@ body {
 
 .ok-content {
   background: white;
+}
+
+.ok-footer {
+  text-align: center;
+}
+.ok-footer p {
+  color: white;
+  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
+  font-weight: 400;
 }
