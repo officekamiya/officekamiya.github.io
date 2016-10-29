@@ -1,4 +1,4 @@
-.ok-logo {
+.ok-logotype {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -6,6 +6,9 @@
 
 .ok-header {
   background-color: rgba(13, 0, 0, 0.9);
+}
+.ok-header .ok-logomark {
+  width: 50px;
 }
 .ok-header .ok-header__title {
   color: #fff;
