@@ -8,6 +8,9 @@ body {
   font-weight: 700;
 }
 
+.ok-header {
+  margin-top: 12px;
+}
 .ok-header .ok-logomark__block {
   display: block;
   margin-left: auto;
@@ -15,18 +18,23 @@ body {
   width: 50px;
 }
 .ok-header .ok-logomark {
-  fill: #fff;
+  fill: white;
 }
 .ok-header .ok-header__title {
-  font-size: 20px;
-  font-size: 1.25rem;
-  color: #fff;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-size: 1.875rem;
+  color: white;
   text-align: center;
 }
 .ok-header .ok-header__description {
-  color: #fff;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-family: source-han-sans-japanese, sans-serif;
+  color: white;
+  text-align: center;
 }
 
 .ok-content {
-  background: #fff;
+  background: white;
 }
