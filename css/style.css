@@ -1,12 +1,13 @@
+body {
+  background-color: rgba(13, 0, 0, 0.9);
+}
+
 .ok-logotype {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-.ok-header {
-  background-color: rgba(13, 0, 0, 0.9);
-}
 .ok-header .ok-logomark__block {
   display: block;
   margin-left: auto;
@@ -24,4 +25,8 @@
 }
 .ok-header .ok-header__description {
   color: #fff;
+}
+
+.ok-content {
+  background: #fff;
 }
