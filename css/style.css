@@ -1,5 +1,10 @@
+@charset "UTF-8";
 body {
   background-color: rgba(13, 0, 0, 0.9);
+}
+
+p {
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
 }
 
 .ok-header {
@@ -35,18 +40,24 @@ body {
   text-align: center;
 }
 
-.ok-content {
+.ok-banner__top {
+  padding-top: 35px;
+  padding-bottom: 25px;
   background: white;
 }
-.ok-content .ok-h1 {
+.ok-banner__top h1 {
+  margin-bottom: 0;
   font-size: 30px;
   font-size: 1.875rem;
-  text-align: center;
-  font-weight: bold;
+  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
 }
+
 .ok-content .ok-h2 {
   font-size: 20px;
   font-size: 1.25rem;
+  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
 }
 
 .ok-footer {
@@ -56,4 +67,40 @@ body {
   color: white;
   font-family: myriad-pro, source-han-sans-japanese, sans-serif;
   font-weight: 400;
+}
+
+.fontweight100 {
+  font-weight: 100;
+}
+
+.fontweight200 {
+  font-weight: 200;
+}
+
+.fontweight300 {
+  font-weight: 300;
+}
+
+.fontweight400 {
+  font-weight: 400;
+}
+
+.fontweight500 {
+  font-weight: 500;
+}
+
+.fontweight700 {
+  font-weight: 700;
+}
+
+.fontweight900 {
+  font-weight: 900;
+}
+
+.fontsize07 {
+  font-size: 0.7em;
+}
+
+.fontsize08 {
+  font-size: 0.8em;
 }
