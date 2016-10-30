@@ -42,7 +42,7 @@ p {
 
 .ok-banner__top {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
   background: white;
 }
 .ok-banner__top h1 {
@@ -97,10 +97,46 @@ p {
   font-weight: 900;
 }
 
+.fontsize01 {
+  font-size: 0.1em;
+}
+
+.fontsize02 {
+  font-size: 0.2em;
+}
+
+.fontsize03 {
+  font-size: 0.4em;
+}
+
+.fontsize04 {
+  font-size: 0.4em;
+}
+
+.fontsize05 {
+  font-size: 0.5em;
+}
+
+.fontsize06 {
+  font-size: 0.6em;
+}
+
 .fontsize07 {
   font-size: 0.7em;
 }
 
 .fontsize08 {
   font-size: 0.8em;
+}
+
+.fontsize09 {
+  font-size: 0.9em;
+}
+
+.fontsize10 {
+  font-size: 1em;
+}
+
+.fontkerning04 {
+  margin-left: -0.4em;
 }
