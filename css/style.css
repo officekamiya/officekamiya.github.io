@@ -1,147 +1,90 @@
-@charset "UTF-8";
-body {
-  background-color: rgba(13, 0, 0, 0.9);
+#ok-header #ok-header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31vh;
+  background: #000;
+  text-align: center;
+  font-family: "myriad-pro", "source-han-sans-japanese", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-
-p {
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
+#ok-header #ok-header__title .ok-header__logo--mark {
+  width: 30%;
+  margin: 0 auto;
 }
-
-.ok-header {
-  margin-top: 12px;
-}
-.ok-header .ok-logotype {
-  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-}
-.ok-header .ok-logomark__block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50px;
-}
-.ok-header .ok-logomark {
+#ok-header #ok-header__title .ok-header__logo--color {
   fill: white;
 }
-.ok-header .ok-header__title {
+#ok-header #ok-header__title h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+#ok-header #ok-header__title h2 {
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: white;
+}
+#ok-header #ok-header__discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19vh;
+  text-align: center;
+  font-family: "adobe-jenson-pro", "source-han-serif-japanese", Georgia, "Times New Roman", Times, serif;
+}
+#ok-header #ok-header__discription h1 {
+  font-size: 1.3rem;
+}
+#ok-header #ok-header__discription h2 {
   margin-bottom: 0;
-  font-size: 30px;
-  font-size: 1.875rem;
-  color: white;
-  text-align: center;
-}
-.ok-header .ok-header__description {
-  font-size: 12px;
-  font-size: 0.75rem;
-  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
+  font-size: 0.7rem;
   font-weight: 700;
-  color: white;
-  text-align: center;
+  font-feature-settings: "palt";
 }
 
-.ok-banner__top {
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background: white;
+#ok-main-contact {
+  display: flex;
+  height: 43vh;
+  align-items: center;
+  text-align: center;
+  border-top: #000 solid 1px;
 }
-.ok-banner__top h1 {
+#ok-main-contact #ok-main-contact__title {
+  margin-bottom: 2rem;
+}
+#ok-main-contact #ok-main-contact__title h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: black;
+}
+#ok-main-contact #ok-main-contact__title h2 {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: black;
+}
+#ok-main-contact #ok-main-contact__discription {
+  font-family: "adobe-jenson-pro", "source-han-serif-japanese", Georgia, "Times New Roman", Times, serif;
+}
+#ok-main-contact #ok-main-contact__discription .text-en {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+#ok-main-contact #ok-main-contact__discription .text-jp {
+  font-size: 0.5rem;
+  font-weight: 700;
+  font-feature-settings: "palt";
+}
+
+#ok-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  border-top: #000 solid 1px;
+}
+#ok-footer h1 {
   margin-bottom: 0;
-  font-size: 30px;
-  font-size: 1.875rem;
-  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
+  font-size: 0.8rem;
   font-weight: 700;
-  line-height: 1.2em;
-}
-
-.ok-content {
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background: rgba(255, 255, 255, 0.8);
-}
-.ok-content .ok-h2 {
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
-}
-
-.ok-footer {
-  text-align: center;
-}
-.ok-footer p {
-  color: white;
-  font-family: myriad-pro, source-han-sans-japanese, sans-serif;
-  font-weight: 400;
-}
-
-.fontweight100 {
-  font-weight: 100;
-}
-
-.fontweight200 {
-  font-weight: 200;
-}
-
-.fontweight300 {
-  font-weight: 300;
-}
-
-.fontweight400 {
-  font-weight: 400;
-}
-
-.fontweight500 {
-  font-weight: 500;
-}
-
-.fontweight700 {
-  font-weight: 700;
-}
-
-.fontweight900 {
-  font-weight: 900;
-}
-
-.fontsize01 {
-  font-size: 0.1em;
-}
-
-.fontsize02 {
-  font-size: 0.2em;
-}
-
-.fontsize03 {
-  font-size: 0.4em;
-}
-
-.fontsize04 {
-  font-size: 0.4em;
-}
-
-.fontsize05 {
-  font-size: 0.5em;
-}
-
-.fontsize06 {
-  font-size: 0.6em;
-}
-
-.fontsize07 {
-  font-size: 0.7em;
-}
-
-.fontsize08 {
-  font-size: 0.8em;
-}
-
-.fontsize09 {
-  font-size: 0.9em;
-}
-
-.fontsize10 {
-  font-size: 1em;
-}
-
-.fontkerning04 {
-  margin-left: -0.4em;
 }
