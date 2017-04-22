@@ -50,6 +50,14 @@
   #ok-header #ok-header__title {
     height: 50vh;
   }
+  #ok-header #ok-header__discription {
+    height: 40vh;
+  }
+}
+@media (min-width: 768px) {
+  #ok-header #ok-header__title {
+    height: 50vh;
+  }
   #ok-header #ok-header__title h1 {
     font-size: 3rem;
   }
@@ -109,6 +117,8 @@
   #ok-main-contact {
     height: 90vh;
   }
+}
+@media (min-width: 768px) {
   #ok-main-contact #ok-main-contact__title h1 {
     font-size: 2.5rem;
   }
