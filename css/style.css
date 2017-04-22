@@ -1,3 +1,7 @@
+.no-padding {
+  padding: 0;
+}
+
 #ok-header #ok-header__title {
   display: flex;
   justify-content: center;
@@ -42,6 +46,30 @@
   font-feature-settings: "palt";
 }
 
+@media (min-width: 576px) {
+  #ok-header #ok-header__title {
+    height: 50vh;
+  }
+  #ok-header #ok-header__title h1 {
+    font-size: 3rem;
+  }
+  #ok-header #ok-header__title h2 {
+    font-size: 1.2rem;
+  }
+  #ok-header #ok-header__discription {
+    height: 40vh;
+    background: black;
+    color: white;
+    border-top: white solid 1px;
+  }
+  #ok-header #ok-header__discription h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  #ok-header #ok-header__discription h2 {
+    font-size: 1.4rem;
+  }
+}
 #ok-main-contact {
   display: flex;
   height: 43vh;
@@ -77,6 +105,26 @@
   font-feature-settings: "palt";
 }
 
+@media (min-width: 576px) {
+  #ok-main-contact {
+    height: 90vh;
+  }
+  #ok-main-contact #ok-main-contact__title h1 {
+    font-size: 2.5rem;
+  }
+  #ok-main-contact #ok-main-contact__title h2 {
+    font-size: 1.2rem;
+  }
+  #ok-main-contact #ok-main-contact__discription .text-en {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+  }
+  #ok-main-contact #ok-main-contact__discription .text-jp {
+    font-size: 1rem;
+    font-weight: 700;
+    font-feature-settings: "palt";
+  }
+}
 #ok-footer {
   display: flex;
   align-items: center;
